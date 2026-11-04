@@ -5,5 +5,12 @@
 import { useState, useEffect } from "react";
 
 export default function CategoryMenu() {
+  const [category, setCategory] = useSate([]);
+
+  //   fetching the category endpoint from API
+  // const [data, setData] = useState(null);
+  // const [loading, setLoading] = useState(true);
+  // const []
+
   return <></>;
 }

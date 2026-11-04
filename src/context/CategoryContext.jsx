@@ -5,6 +5,15 @@
 // ease while also making the code shorter and easier to read?
 
 //import needed context and other requirements
+import { useContext, createContext } from "react";
+
+const categoryContext = createContext();
+
+export default function CategoryProvider({ children }) {
+  //Fethcing catories from api endpoint
+
+  return <></>;
+}
 
 //Provider and creating the named useContext with error-catch at the end.
 

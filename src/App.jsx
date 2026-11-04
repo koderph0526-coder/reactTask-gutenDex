@@ -1,10 +1,17 @@
 import { useState } from "react";
+// import Header from "./components/Header";
+import { HeaderBuild } from "./components/StaticBuild";
+
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  return <></>;
+  return (
+    <>
+      <HeaderBuild />
+    </>
+  );
 }
 
 export default App;
