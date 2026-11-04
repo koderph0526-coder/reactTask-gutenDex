@@ -8,6 +8,8 @@ Canvas Link (Source of assigmnet txt):
 
 ## My thoughts and ideas:
 
+Documentation on API link "https://gutendex.com/"
+
 Pretty straightforward assignment, with a challenge of our freshly learned knowledge and a good way to put our knowledge to use!
 It is however a bit of things to get done:
 

@@ -6,7 +6,12 @@
 //Book image if accessible?
 // p tag with author || p tag with release year/date
 // Book description
-//Number of pages if accessible
+//Number of dowloads
+//category
+// language (just original or original and translations?)
+//link to digital read format.
+//Number of pages if accessible?
+//Button to add as favorite
 // (should I use tanstacck somewhere here perhaps? Read up on repo from class about tanstack use and google further!)
 
 //If time and possible add a "suggested" scrollable banner below the book info on this page display other books of the same genre,
