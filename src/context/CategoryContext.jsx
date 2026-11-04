@@ -11,3 +11,6 @@
 //Rember to check that it finds all the categories listed as a requirement in the assignment text:
 // Fiction, Mystery, Thriller, Romace, Fantasy, Morality, Society, Power, Justice, Adventure, Tragedy, War and Philosophy
 // Remember to add a way to navigate this in a menu format in Category Meny, where each button with the category name gives a list of books from the correct category
+
+//Might not need this file at all!
+//Transfer ideas from here to read me
