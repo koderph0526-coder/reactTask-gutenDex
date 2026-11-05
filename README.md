@@ -17,13 +17,16 @@ It is however a bit of things to get done:
 - As far as I can gleam from the assignment text this need to be brokenm down into smaller components to have a more readable, easy to manuover and edit set up. I will need to split it into different parts and while it may be backwards I want to start with the one that fetches the data from the API after I've read the documentation which to my joy seems to be a well written and thorough one! []
 - The different components and possibly context(by that i mean it will be available in the folder named context) files:
   - Header(searchbar) []
-  -
+  - searchbar component -> Input field [], button to fetch maching result (function) []
+  - dropdown (categories) component (that fetches maching category) []
+
 - ! NOTE: study up on routing in react, as it will be needed to fetch the detail pages for each book. []
   - The book pages will need a reusable layout, I'm thinking breaking into a smaller component set could be smart, but I think it could also be fetched with jsx syntaxes in one file, with as much dynamic and flexible code as possible.
 
 - **Proof of concept** - making the baseline that I can build on later:
-  - ! Note that I will be leaving comments in a lot of the files, compnents and contexts to be able to continue building on this and expand the page beyond proof of concept, please excute this as it will probably look a little messy, but they are left there for a good reason.
+  - ! Note that I will be leaving comments in a lot of the files, components and contexts to be able to continue building on this and expand the page beyond proof of concept, please excute this as it will probably look a little messy, but they are left there for a good reason.
   - Build the needed components for the baseline, make most things beyond the bookDetail page be dropdown or pop ups on the same page. []
+  - Might need to make a seperate component to be able to fetch different sets of data in one place and then store those data sets in easier to use variables, so that I can call the fetch of specific obj from the api without having to write the code for each need in each file.
 
 # Assigment text:
 

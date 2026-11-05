@@ -17,7 +17,9 @@ export default function CategoryMenu() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const res = await fetch("https://gutendex.com/books/");
+        const res = await fetch(
+          "https://gutendex.com/books?topic=bookeshelves}",
+        );
 
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
@@ -26,7 +28,7 @@ export default function CategoryMenu() {
         const result = await res.json();
         // console.log(result);
         // handleData(result.results);
-        setData(result.results);
+        setData(result.category);
       } catch (err) {
         setError(error.message);
       }
@@ -38,21 +40,22 @@ export default function CategoryMenu() {
 
   return (
     <>
-      <div>
-        <button>Fiction</button>
-        <button>Mystery</button>
-        <button>Thriller</button>
-        <button>Romance</button>
-        <button>Fantasy</button>
-        <button>Morality</button>
-        <button>Society</button>
-        <button>Power</button>
-        <button>Justice</button>
-        <button>Adventure</button>
-        <button>Tragedy</button>
-        <button>War</button>
-        <button>Philosophy</button>
-      </div>
+      {/* Make it so that the option functions like a link, pulling all the books from the matching category into display */}
+      <select>
+        <option>Fiction</option>
+        <option>Mystery</option>
+        <option>Thriller</option>
+        <option>Romance</option>
+        <option>Fantasy</option>
+        <option>Morality</option>
+        <option>Society</option>
+        <option>Power</option>
+        <option>Justice</option>
+        <option>Adventure</option>
+        <option>Tragedy</option>
+        <option>War</option>
+        <option>Philosophy</option>
+      </select>
       {/* <button {data.map(()=>{
       bookshelves.category
     })}></button> */}
