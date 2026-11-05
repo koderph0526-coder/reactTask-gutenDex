@@ -18,11 +18,8 @@ export default function Header() {
   //     }
   //   };
   // });
-  return (
-    <>
-      <div className={styles.navBar}></div>
-    </>
-  );
+
+  return <>{/* <div className={styles.navBar}></div> */}</>;
 }
 
 // notes

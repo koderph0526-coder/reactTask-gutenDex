@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import { HeaderBuild } from "./components/StaticBuild";
+import CategoryMenu from "./components/CategoryMenu";
 
 // import "./App.css";
 
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <>
-      <Header />
-      <HeaderBuild />
+      {/* <Header /> */}
+      <CategoryMenu />
+      {/* <HeaderBuild /> */}
     </>
   );
 }
