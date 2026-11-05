@@ -31,7 +31,7 @@ export const HeaderBuild = () => {
   return (
     <div>
       {data?.map((book) => (
-        <p key={book.id}>{book.results[bookshelves.category]}</p>
+        <p key={book.id}>{book.results.category}</p>
       ))}
     </div>
   );

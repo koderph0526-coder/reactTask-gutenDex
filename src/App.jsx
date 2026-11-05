@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import { HeaderBuild } from "./components/StaticBuild";
 
 import "./App.css";
@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <HeaderBuild />
     </>
   );
