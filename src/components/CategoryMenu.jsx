@@ -11,6 +11,9 @@ export default function CategoryMenu() {
   // const [data, setData] = useState(null);
   // const [loading, setLoading] = useState(true);
   // const []
+  useEffect(() => {
+    // const
+  });
 
   return <></>;
 }

@@ -28,21 +28,11 @@ export const HeaderBuild = () => {
     fetchCategories();
   }, []);
 
-  useEffect(() => {
-    console.log("data hentet");
-    console.log(data[0]);
-  }, [data]);
-
-  //   const handleData = (apiData) => {
-  //     setData(apiData);
-  //     // console.log(apiData);
-  //     console.log(data);
-  //   };
-
-  //   Empty div for console check ease
   return (
     <div>
-      <p>{data ? data[0].title : "lol"}</p>
+      {data?.map((book) => (
+        <p key={book.id}>{book.results[bookshelves.category]}</p>
+      ))}
     </div>
   );
 
