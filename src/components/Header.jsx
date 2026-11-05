@@ -2,7 +2,7 @@
 // Books logo?
 // Search bar: input field + search button that initiates the search of matching books/titles/genres
 import { useState, useEffect, useRef } from "react";
-import styles from "../App.modules.css";
+// import styles from "App.modules.css";
 // import style here when made!
 
 export default function Header() {
@@ -24,3 +24,8 @@ export default function Header() {
     </>
   );
 }
+
+// notes
+// fetch dropdown into a button here?
+//Make search logic (-> input field filter and map result that matches) and apply logic
+//Have the submit button be what triggers the print to page in divCards?
